@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "2db819d7-42c3-480b-8cc8-e11b0312a93f",
+		"name": "WEEK 7 (GRAB)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44007843",
+		"_collection_link": "https://nur-2250605.postman.co/workspace/NUR-'s-Workspace~93bab862-a0f7-48fc-8271-09c808716033/collection/44007843-2db819d7-42c3-480b-8cc8-e11b0312a93f?action=share&source=collection_link&creator=44007843"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/analytics/passengers",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/analytics/passengers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"analytics",
+						"passengers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
